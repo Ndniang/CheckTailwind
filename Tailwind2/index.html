@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Blog Online</title>
+</head>
+<body class="bg-gray-100 ">    
+<!-- En-tête -->
+    <header class="bg-white shadow" style="background-color: brown; ">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center text-white">
+            <h1 class="text-3xl font-bold text-gray-800"><marquee behavior="scroll" direction="right">Mon Blog</marquee></h1>
+            <nav >
+                <ul class="flex space-x-4 " style="text-decoration: solid;">
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Accueil</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">À propos</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Articles</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Contact</a></li>
+                </ul>
+                        
+            </nav>
+                
+                
+        </div>
+            
+           
+    </header>
+        
+            
+        
+           
+<!-- Section des articles vedettes -->
+            
+          
+<section class="container mx-auto px-4 py-10 text-center">
+ <h2 class="text-2xl font-bold mb-6 text-gray-800" style="background-color: burlywood;">Articles Vedettes</h2>     
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <article class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="img/129.jpeg" alt="Article 1" class="w-full h-48 object-cover">
+                        
+            <div class="p-4">
+                <h3 class="font-semibold text-lg text-gray-800">Les pires conseils du monde</h3>
+                <p class="text-gray-600">Ne jamais arréter d'apprendre</p>
+            </div>
+    </article>
+    <article class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="img/deux.avif" alt="Article 2" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-lg text-gray-800">Dév web</h3>
+                <p class="text-gray-600">5 raisons pour lesquelles vous devriez apprendre le développement web</p>
+                        
+            </div>
+    </article>
+<article class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="img/blog.avif" alt="Article 3" class="w-full h-48 object-cover">
+        <div class="p-4">
+            <h3 class="font-semibold text-lg text-gray-800">Comment devenir un pro</h3>
+            <p class="text-gray-600">La recherche, la base!</p>
+        </div>
+        
+                    
+</article>
+            
+</section>
+        
+<!-- Section des catégories -->
+<section class="container mx-auto px-4 py-10 text-center">
+    <h2 class="text-2xl font-bold mb-6 text-gray-800 " style="background-color: burlywood;">Catégories</h2>
+    <div class="flex space-x-4 " style="text-align: center;"> 
+        <li >   
+            <span class="bg-blue-500 text-black px-3 py-1 rounded-full">Technologie</span>
+        </li>
+         <li>
+            <span class="bg-blue-500 text-black px-3 py-1 rounded-full">Santé</span>
+        </li>
+
+        <li>
+            <span class="bg-blue-500 text-black px-3 py-1 rounded-full">Voyage</span>
+        </li>
+        <li>
+            <span class="bg-blue-500 text-black px-3 py-1 rounded-full">Éducation</span>
+        </li>
+   
+    </div>
+</section>
+<br>
+<!-- Section des articles récents -->
+<section class="container mx-auto px-4 py-10">
+    <h2 class="text-2xl font-bold mb-6 text-gray-800 text-center" style="background-color: burlywood;">Articles Récents</h2>
+    <ul class="space-y-4">
+        <li class="text-gray-800">
+            <a href="#" class="hover:text-blue-600">Comment devenir un pro</a> <span class="text-gray-500">- 10 Octobre 2024</span>
+        </li>
+        <li class="text-gray-800">
+            <a href="#" class="hover:text-blue-600">Dév web</a> <span class="text-gray-500">- 5 Octobre 2024</span>
+        </li>
+        <li class="text-gray-800">
+            <a href="#" class="hover:text-blue-600">Les pires conseils du monde</a> <span class="text-gray-500">- 1 Octobre 2024</span>
+        </li>
+    </ul>
+</section>
+        
+<!-- Formulaire d'abonnement à la lettre d'information -->
+<section class="bg-blue-100 py-10">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-2xl font-bold mb-4" style="background-color: burlywood;">Abonnez-vous </h2>
+        <form class="flex justify-center space-x-2">
+            <input type="email" placeholder="Votre email" class="px-4 py-2 border border-gray-300 rounded-lg" required>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                S'abonner
+              </button>
+        </form>
+    </div>
+</section>
+        <br>
+        <br>
+<!-- Pied de page -->
+<footer class="bg-white py-6" style="background-color: brown;">
+    <div class="container mx-auto px-4 flex justify-between items-center text-white" >
+        <p class="text-gray-600  text-white"  >© 2024 Ndey@. Tous droits réservés.</p>
+        <div class="icon">
+            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+        </div>
+    </div>
+</footer>
+        
+</body>
+</html>
